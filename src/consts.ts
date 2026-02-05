@@ -31,12 +31,12 @@ interface Site {
 
 // Site configuration
 export const SITE: Site = {
-  website: "https://steipete.me/",
-  author: "Peter Steinberger",
-  profile: "https://steipete.me/about",
-  desc: "AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.",
-  title: "Peter Steinberger",
-  ogImage: "peter-avatar.jpg",
+  website: "https://varunvaidhiya.me/",
+  author: "Varun Vaidhiya",
+  profile: "https://varunvaidhiya.me/about",
+  desc: "Personal website and blog of Varun Vaidhiya.",
+  title: "Varun Vaidhiya",
+  ogImage: "varun-avatar.jpg",
   lightAndDarkMode: true,
   postPerIndex: 10,
   postPerPage: 10,
@@ -46,11 +46,11 @@ export const SITE: Site = {
   editPost: {
     enabled: true,
     text: "Edit on GitHub",
-    url: "https://github.com/steipete/steipete.me/edit/main/",
+    url: "https://github.com/varunvaidhiya/varunvaidhiya.me/edit/main/",
   },
   dynamicOgImage: true,
   lang: "en",
-  timezone: "America/Los_Angeles",
+  timezone: "Asia/Kolkata",
 };
 
 export const SITE_TITLE = SITE.title;
@@ -71,16 +71,12 @@ export const NAV_LINKS: SocialLink[] = [
 // Social media links
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: "https://github.com/steipete",
+    href: "https://github.com/varunvaidhiya",
     label: "GitHub",
   },
   {
-    href: "https://twitter.com/steipete",
-    label: "Twitter",
-  },
-  {
-    href: "https://bsky.app/profile/steipete.me",
-    label: "BlueSky",
+    href: "https://linkedin.com/in/varunvaidhiya",
+    label: "LinkedIn",
   },
   {
     href: "/rss.xml",
