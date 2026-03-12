@@ -16,6 +16,13 @@ export const SOCIALS = [
     active: true,
   },
   {
+    name: "Twitter",
+    href: "https://x.com/VarunVaidhiya",
+    linkTitle: `${SITE.title} on X/Twitter`,
+    icon: "twitter",
+    active: true,
+  },
+  {
     name: "Mail",
     href: "mailto:contact@varunvaidhiya.me",
     linkTitle: `Send an email to ${SITE.title}`,

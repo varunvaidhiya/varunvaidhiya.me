@@ -1,42 +1,60 @@
 ---
 layout: ../layouts/AboutLayout.astro
 title: "About"
-description: "Vienna ↔ London. iOS architect turned web developer. Open source everything. Conference speaker & writer on tech innovation."
+description: "Software Engineer based in the UK, specialising in AI, Robotics, and Performance Optimisation."
 ---
 
 import NewsletterForm from '../components/NewsletterForm.astro';
 
 <div class="flex flex-col md:flex-row gap-8 items-start">
-  <div class="w-full md:w-auto md:flex-shrink-0 md:max-w-[281px]">
+  <div class="w-full md:w-auto md:flex-shrink-0 md:max-w-[240px]">
     <img src="/varun-avatar.jpg" alt="Varun Vaidhiya" class="w-full h-auto rounded-lg" />
   </div>
   <div class="flex-1 min-w-0">
-    <p>Hi, I am Varun Vaidhiya. Welcome to my personal website.</p>
-    <p>I am a software engineer passionate about building great products.</p>
+    <p>Hi, I'm <strong>Varun Vaidhiya</strong> — a Software Engineer based in the <strong>UK</strong>, working at the intersection of AI, Robotics, and systems-level performance.</p>
+    <p>My focus is on <strong>optimising AI models through benchmarking</strong>, understanding <strong>low-level hardware behaviour</strong>, and delivering best-in-class solutions for performance-critical systems. I'm particularly interested in running AI efficiently on edge hardware and ARM architectures.</p>
+    <p>I build what excites me and release it all as open source — from ROS-based robots and AI inference toolkits to blockchain applications and data science case studies.</p>
   </div>
 </div>
+
+## What I Work On
+
+- **AI & Performance Optimisation** — Benchmarking AI models, profiling with Perfetto, and squeezing performance out of constrained hardware
+- **Robotics** — ROS-based systems, autonomous vehicles, sensor fusion (Kinect v2, LiDAR)
+- **Low-level Programming** — ARM architecture, embedded systems, hardware-software co-design
+- **AI on Edge / Arm** — Making AI inference efficient on ARM and mobile devices
+- **ML & Data Science** — EDA, predictive modelling, classification, SQL analytics
 
 ## GitHub Activity
 
 <div class="bg-secondary p-0 rounded-lg">
-  <img 
-    src="https://ghchart.rshah.org/varunvaidhiya" 
-    alt="Varun's GitHub Contribution Graph" 
+  <img
+    src="https://ghchart.rshah.org/varunvaidhiya"
+    alt="Varun's GitHub Contribution Graph"
     class="w-full"
     style="max-width: 100%; height: auto;"
     loading="lazy"
   />
 </div>
 
-I build what excites me and release it all as open source.
+## Open Source Projects
 
-[Follow me on GitHub](https://github.com/varunvaidhiya/).
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [runanywhere-sdks](https://github.com/varunvaidhiya/runanywhere-sdks) | Production-ready toolkit to run AI locally | Kotlin |
+| [Mecanum-Wheel-Robot](https://github.com/varunvaidhiya/Mecanum-Wheel-Robot) | ROS-based mecanum wheel robot | Python / ROS |
+| [AI-on-Arm](https://github.com/varunvaidhiya/AI-on-Arm) | AI inference on ARM hardware | Various |
+| [SAM2forAV](https://github.com/varunvaidhiya/SAM2forAV) | SAM2 model applied to autonomous vehicles | Jupyter / Python |
+| [AEB-Model-Based-Design](https://github.com/varunvaidhiya/AEB-Model-Based-Design) | Automatic Emergency Braking model-based design | Simulink |
+| [perfetto_analysis_repo](https://github.com/varunvaidhiya/perfetto_analysis_repo) | Performance analysis scripts using Perfetto | Python |
+| [libfreenect2](https://github.com/varunvaidhiya/libfreenect2) | Open-source drivers for Kinect for Windows v2 | C++ |
+| [decentralized-voting-using-blockchain](https://github.com/varunvaidhiya/decentralized-voting-using-blockchain) | Decentralised voting with fingerprint authentication | JavaScript |
 
 ## Stay Connected
 
-<NewsletterForm />
+[Follow me on GitHub](https://github.com/varunvaidhiya/) · [Follow on X/Twitter](https://x.com/VarunVaidhiya) · [Connect on LinkedIn](https://linkedin.com/in/varunvaidhiya)
 
-If you'd like to connect or have questions about my work, feel free to reach out through any of the links below.
+<NewsletterForm />
 
 <div class="not-prose">
   <p class="text-sm text-gray-500 dark:text-gray-400 mt-8">&copy; Varun Vaidhiya</p>

@@ -34,7 +34,7 @@ export const SITE: Site = {
   website: "https://varunvaidhiya.me/",
   author: "Varun Vaidhiya",
   profile: "https://varunvaidhiya.me/about",
-  desc: "Personal website and blog of Varun Vaidhiya.",
+  desc: "Software Engineer specialising in AI, Robotics, and Performance Optimisation. Based in the UK.",
   title: "Varun Vaidhiya",
   ogImage: "varun-avatar.jpg",
   lightAndDarkMode: true,
