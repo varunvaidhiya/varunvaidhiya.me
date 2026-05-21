@@ -75,8 +75,12 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: "GitHub",
   },
   {
-    href: "https://linkedin.com/in/varunvaidhiya",
-    label: "LinkedIn",
+    href: "https://www.youtube.com/@varun.vaidhiya",
+    label: "YouTube",
+  },
+  {
+    href: "https://substack.com/@varunvaidhiya",
+    label: "Substack",
   },
   {
     href: "/rss.xml",
