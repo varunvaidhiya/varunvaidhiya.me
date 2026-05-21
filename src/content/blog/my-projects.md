@@ -99,4 +99,4 @@ A blockchain-based voting system that uses MFS100 fingerprint scanner authentica
 
 ---
 
-More coming soon. Follow me on [GitHub](https://github.com/varunvaidhiya) to stay updated.
+More coming soon. Follow me on [GitHub](https://github.com/varunvaidhiya) to stay updated, and check out my [YouTube channel](https://www.youtube.com/@varun.vaidhiya) for videos on AI, robotics, and performance engineering.

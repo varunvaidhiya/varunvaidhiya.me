@@ -9,10 +9,17 @@ export const SOCIALS = [
     active: true,
   },
   {
-    name: "LinkedIn",
-    href: "https://linkedin.com/in/varunvaidhiya",
-    linkTitle: `${SITE.title} on LinkedIn`,
-    icon: "linkedin",
+    name: "YouTube",
+    href: "https://www.youtube.com/@varun.vaidhiya",
+    linkTitle: `${SITE.title} on YouTube`,
+    icon: "youtube",
+    active: true,
+  },
+  {
+    name: "Substack",
+    href: "https://substack.com/@varunvaidhiya",
+    linkTitle: `${SITE.title} on Substack`,
+    icon: "substack",
     active: true,
   },
   {
